@@ -2,7 +2,7 @@ defmodule GibsWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", GibsWeb.RoomChannel
+  channel "lobby:*", GibsWeb.LobbyChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

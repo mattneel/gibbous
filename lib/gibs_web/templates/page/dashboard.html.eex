@@ -90,7 +90,7 @@
                                     $199.4
                                 </a>
                                 <a href="#" class="no-underline text-white text-lg">
-                                    Total Cost
+                                    Another Metric
                                 </a>
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                                     500
                                 </a>
                                 <a href="#" class="no-underline text-white text-lg">
-                                    Total Products
+                                    Exclusive Contents
                                 </a>
                             </div>
                         </div>
@@ -250,13 +250,12 @@
                         <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
                             <img src="https://i.imgur.com/w1Bdydo.jpg" class="w-full"/>
                             <div class="flex justify-center -mt-8">
-                                <img src="https://i.imgur.com/8Km9tLL.jpg"
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAMAAAArteDzAAAAYFBMVEX///8AAADd3d36+vpHR0fBwcHOzs7m5ub29vbHx8c5OTnw8PBeXl5hYWGGhoa4uLiRkZGdnZ2xsbFZWVk0NDTX19c+Pj5ra2sVFRWjo6Nzc3N9fX0NDQ1TU1MtLS0gICBRFihnAAACWElEQVRYhe2Z25aCMAxFkYsIRS4Kogj4/385A6g0CUgK8c3zpp3s1UnSJK2WtSSnSNIqalzXbY5VnAW2s2iyIHWKrjukR5kctiDvGPhUHau1zHQG2StdhbTDwTpPA9v2YuKF0DZnBoPp1Xt+dui+A1NmMti1Wkj2hOrN23/Y567QvywIdW/CVE+jK8zJhFBNcqt5GaFgHDH0yGeOO4rhgr3BAeHs/+di6JnL1MOMcjwjW+VmKziccKs0AeIZCBY4PDew5BDolQkFRiFcawmVl1UKGkGnNQRazGCgfGiUgMWIQHlJhaCZCBQFA4Z3LdTKgREMP4XyfGqdgBGsmmcC9XlQ66LZ5HCJRp/JBHUDuSzHTJcL1U4jLu41hmaTgEk5abel9o478WG1Swf5vk9nEdKnIiPmtG4YatSlZoSDXwowFd7o6ulHEy78ho1/Ug6qpgbpNC/U97md5LPCLzA9wLwtG3Ck1xmRGFnj0NapXTGcTkqbTiohpObROln+a6beHj2bFaZPenv0JIZ8e/Qit813Ia02X/d0lT1z3eVpTqoWPEQvBfL7tKx4Z9KMmepiz5xv+KoNrgxcKeGk79WNrJJZ3+t/uHpIMzuoRIcnUJmOhKByNVSDSgxNSAfR6vTTT9+Rb0sM4rqC4TnqIlhR1XjHzaU6iv/Qp1KZCnAATKH6X0GmSJ9G7ykyYzl93m22Q+lDRL0dSh4iBELlPL4ARXe8XtvPK32G4r5CfhB5iZC4QtGHGImrHt7qXYCJvdoK9f9SY4ZbfogCGj0QC84p6lS5rltm7LT/A9m4EujthiAkAAAAAElFTkSuQmCC"
                                      class="rounded-full border-solid border-white border-2 -mt-3">
                             </div>
                             <div class="text-center px-3 pb-6 pt-2">
-                                <h3 class="text-black text-sm bold font-sans">Olivia Dunham</h3>
-                                <p class="mt-2 font-sans font-light text-grey-dark">Hello, i'm from another the other
-                                    side!</p>
+                                <h3 class="text-black text-sm bold font-sans">Literally Who</h3>
+                                <p class="mt-2 font-sans font-light text-grey-dark">I HAVE AN OPINION</p>
                             </div>
                             <div class="flex justify-center pb-3 text-grey-dark">
                                 <div class="text-center mr-3 border-r pr-3">
@@ -273,13 +272,12 @@
                         <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
                             <img src="https://i.imgur.com/w1Bdydo.jpg" class="w-full"/>
                             <div class="flex justify-center -mt-8">
-                                <img src="https://i.imgur.com/8Km9tLL.jpg"
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAMAAAArteDzAAAAYFBMVEX///8AAADd3d36+vpHR0fBwcHOzs7m5ub29vbHx8c5OTnw8PBeXl5hYWGGhoa4uLiRkZGdnZ2xsbFZWVk0NDTX19c+Pj5ra2sVFRWjo6Nzc3N9fX0NDQ1TU1MtLS0gICBRFihnAAACWElEQVRYhe2Z25aCMAxFkYsIRS4Kogj4/385A6g0CUgK8c3zpp3s1UnSJK2WtSSnSNIqalzXbY5VnAW2s2iyIHWKrjukR5kctiDvGPhUHau1zHQG2StdhbTDwTpPA9v2YuKF0DZnBoPp1Xt+dui+A1NmMti1Wkj2hOrN23/Y567QvywIdW/CVE+jK8zJhFBNcqt5GaFgHDH0yGeOO4rhgr3BAeHs/+di6JnL1MOMcjwjW+VmKziccKs0AeIZCBY4PDew5BDolQkFRiFcawmVl1UKGkGnNQRazGCgfGiUgMWIQHlJhaCZCBQFA4Z3LdTKgREMP4XyfGqdgBGsmmcC9XlQ66LZ5HCJRp/JBHUDuSzHTJcL1U4jLu41hmaTgEk5abel9o478WG1Swf5vk9nEdKnIiPmtG4YatSlZoSDXwowFd7o6ulHEy78ho1/Ug6qpgbpNC/U97md5LPCLzA9wLwtG3Ck1xmRGFnj0NapXTGcTkqbTiohpObROln+a6beHj2bFaZPenv0JIZ8e/Qit813Ia02X/d0lT1z3eVpTqoWPEQvBfL7tKx4Z9KMmepiz5xv+KoNrgxcKeGk79WNrJJZ3+t/uHpIMzuoRIcnUJmOhKByNVSDSgxNSAfR6vTTT9+Rb0sM4rqC4TnqIlhR1XjHzaU6iv/Qp1KZCnAATKH6X0GmSJ9G7ykyYzl93m22Q+lDRL0dSh4iBELlPL4ARXe8XtvPK32G4r5CfhB5iZC4QtGHGImrHt7qXYCJvdoK9f9SY4ZbfogCGj0QC84p6lS5rltm7LT/A9m4EujthiAkAAAAAElFTkSuQmCC"
                                      class="rounded-full border-solid border-white border-2 -mt-3">
                             </div>
                             <div class="text-center px-3 pb-6 pt-2">
-                                <h3 class="text-black text-sm bold font-sans">Olivia Dunham</h3>
-                                <p class="mt-2 font-sans font-light text-grey-dark">Hello, i'm from another the other
-                                    side!</p>
+                                <h3 class="text-black text-sm bold font-sans">Literally Who</h3>
+                                <p class="mt-2 font-sans font-light text-grey-dark">I HAVE AN OPINION</p>
                             </div>
                             <div class="flex justify-center pb-3 text-grey-dark">
                                 <div class="text-center mr-3 border-r pr-3">
@@ -296,13 +294,12 @@
                         <div class="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
                             <img src="https://i.imgur.com/w1Bdydo.jpg" class="w-full"/>
                             <div class="flex justify-center -mt-8">
-                                <img src="https://i.imgur.com/8Km9tLL.jpg"
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAMAAAArteDzAAAAYFBMVEX///8AAADd3d36+vpHR0fBwcHOzs7m5ub29vbHx8c5OTnw8PBeXl5hYWGGhoa4uLiRkZGdnZ2xsbFZWVk0NDTX19c+Pj5ra2sVFRWjo6Nzc3N9fX0NDQ1TU1MtLS0gICBRFihnAAACWElEQVRYhe2Z25aCMAxFkYsIRS4Kogj4/385A6g0CUgK8c3zpp3s1UnSJK2WtSSnSNIqalzXbY5VnAW2s2iyIHWKrjukR5kctiDvGPhUHau1zHQG2StdhbTDwTpPA9v2YuKF0DZnBoPp1Xt+dui+A1NmMti1Wkj2hOrN23/Y567QvywIdW/CVE+jK8zJhFBNcqt5GaFgHDH0yGeOO4rhgr3BAeHs/+di6JnL1MOMcjwjW+VmKziccKs0AeIZCBY4PDew5BDolQkFRiFcawmVl1UKGkGnNQRazGCgfGiUgMWIQHlJhaCZCBQFA4Z3LdTKgREMP4XyfGqdgBGsmmcC9XlQ66LZ5HCJRp/JBHUDuSzHTJcL1U4jLu41hmaTgEk5abel9o478WG1Swf5vk9nEdKnIiPmtG4YatSlZoSDXwowFd7o6ulHEy78ho1/Ug6qpgbpNC/U97md5LPCLzA9wLwtG3Ck1xmRGFnj0NapXTGcTkqbTiohpObROln+a6beHj2bFaZPenv0JIZ8e/Qit813Ia02X/d0lT1z3eVpTqoWPEQvBfL7tKx4Z9KMmepiz5xv+KoNrgxcKeGk79WNrJJZ3+t/uHpIMzuoRIcnUJmOhKByNVSDSgxNSAfR6vTTT9+Rb0sM4rqC4TnqIlhR1XjHzaU6iv/Qp1KZCnAATKH6X0GmSJ9G7ykyYzl93m22Q+lDRL0dSh4iBELlPL4ARXe8XtvPK32G4r5CfhB5iZC4QtGHGImrHt7qXYCJvdoK9f9SY4ZbfogCGj0QC84p6lS5rltm7LT/A9m4EujthiAkAAAAAElFTkSuQmCC"
                                      class="rounded-full border-solid border-white border-2 -mt-3">
                             </div>
                             <div class="text-center px-3 pb-6 pt-2">
-                                <h3 class="text-black text-sm bold font-sans">Olivia Dunham</h3>
-                                <p class="mt-2 font-sans font-light text-grey-dark">Hello, i'm from another the other
-                                    side!</p>
+                                <h3 class="text-black text-sm bold font-sans">Literally Who</h3>
+                                <p class="mt-2 font-sans font-light text-grey-dark">I HAVE AN OPINION</p>
                             </div>
                             <div class="flex justify-center pb-3 text-grey-dark">
                                 <div class="text-center mr-3 border-r pr-3">
