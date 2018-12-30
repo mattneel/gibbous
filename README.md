@@ -11,4 +11,4 @@ Pronounced 'gib us'. Democratizing hipster welfare, and making Hungry Santa prou
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our the Phoenix deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+Ready to run in production? Please [check out the Phoenix deployment guides](https://hexdocs.pm/phoenix/deployment.html).
