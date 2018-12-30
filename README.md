@@ -1,4 +1,4 @@
-# gibbous
+# gibbous 🌔
 
 Pronounced 'gib us'. Democratizing hipster welfare, and making Hungry Santa proud.
 
