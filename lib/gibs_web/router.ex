@@ -1,5 +1,7 @@
 defmodule GibsWeb.Router do
   use GibsWeb, :router
+  use Pow.Phoenix.Router
+  use Pow.Extension.Phoenix.Router, otp_app: :gibs
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -9,8 +11,19 @@ defmodule GibsWeb.Router do
     plug :put_secure_browser_headers
   end
 
+  pipeline :protected do
+    plug Pow.Plug.RequireAuthenticated,
+      error_handler: Pow.Phoenix.PlugErrorHandler
+  end
+
   pipeline :api do
     plug :accepts, ["json"]
+  end
+
+  scope "/" do
+    pipe_through :browser
+    pow_routes()
+    pow_extension_routes()
   end
 
   scope "/", GibsWeb do
@@ -19,8 +32,13 @@ defmodule GibsWeb.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", GibsWeb do
-  #   pipe_through :api
-  # end
+  scope "/", GibsWeb do
+    pipe_through [:browser, :protected]
+
+    get "/dashboard", PageController, :dashboard
+  end
+
+  scope "/api/v1", GibsWeb do
+     pipe_through :api
+  end
 end

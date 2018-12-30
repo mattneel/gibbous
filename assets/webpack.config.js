@@ -29,19 +29,29 @@ module.exports = (env, options) => ({
         }
       },
       {
-        test: /\.css$/,
+        test: /\.(scss|sass|css)$/i,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader"
+          },
+          { loader: "postcss-loader", options: { sourceMap: true } },
+          { loader: "sass-loader", options: { sourceMap: true } }
+        ]
+      },
+      {
+        test: /\.svg$/,
+        loader: "svg-inline-loader"
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
         use: [
           {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader",
+            loader: "file-loader",
             options: {
-              importLoaders: 1
+              name: "[name].[ext]",
+              outputPath: "../webfonts/"
             }
-          },
-          {
-            loader: "postcss-loader"
           }
         ]
       }

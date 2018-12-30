@@ -12,8 +12,7 @@ defmodule GibsWeb.Endpoint do
   plug Plug.Static,
     at: "/",
     from: :gibs,
-    gzip: false,
-    only: ~w(css fonts images js favicon.ico robots.txt)
+    gzip: false
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
@@ -41,6 +40,12 @@ defmodule GibsWeb.Endpoint do
     store: :cookie,
     key: "_gibs_key",
     signing_salt: "Ljif8mIR"
+
+    plug Pow.Plug.Session,
+    otp_app: :gibs,
+    repo: Gibs.Repo,
+    user: Gibs.Users.User,
+    web_module: GibsWeb
 
   plug GibsWeb.Router
 end
