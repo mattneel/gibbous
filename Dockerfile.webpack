@@ -1,0 +1,14 @@
+FROM node:10.12-alpine
+LABEL maintainer="Matt Neel <requisite.zero@gmail.com>"
+
+RUN npm install -g yarn
+
+WORKDIR /app/assets
+
+COPY assets/package.json assets/*yarn* ./
+RUN yarn global add webpack webpack-cli
+RUN yarn install
+
+COPY . .
+
+CMD ["yarn", "run", "build"]
