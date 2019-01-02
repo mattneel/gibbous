@@ -2,18 +2,18 @@
   "repository": {},
   "license": "MIT",
   "scripts": {
-    "deploy": "webpack --mode production",
-    "watch": "webpack --mode development --watch"
+    "build": "webpack-cli --mode production --config /app/assets/webpack.config.js --progress --color",
+    "watch": "webpack-cli --mode development --config /app/assets/webpack.config.js --progress --color --watch"
   },
   "dependencies": {
-    "phoenix": "file:../deps/phoenix",
-    "phoenix_html": "file:../deps/phoenix_html"
+    "phoenix": "~1.4",
+    "phoenix_html": "~2.12"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.0",
-    "copy-webpack-plugin": "^4.5.0",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^0.28.10",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^3.0.1",
@@ -29,7 +29,8 @@
     "svg-inline-loader": "^0.8.0",
     "tailwindcss": "^0.7.3",
     "uglifyjs-webpack-plugin": "^1.2.4",
-    "webpack": "4.4.0",
-    "webpack-cli": "^2.0.10"
+    "webpack": "^4.28.3",
+    "webpack-cli": "^2.0.10",
+    "webpack-merge": "^4.1.5"
   }
 }

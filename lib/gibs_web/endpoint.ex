@@ -41,7 +41,7 @@ defmodule GibsWeb.Endpoint do
     key: "_gibs_key",
     signing_salt: "Ljif8mIR"
 
-    plug Pow.Plug.Session,
+  plug Pow.Plug.Session,
     otp_app: :gibs,
     repo: Gibs.Repo,
     user: Gibs.Users.User,

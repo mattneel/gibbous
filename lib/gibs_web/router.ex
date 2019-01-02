@@ -12,8 +12,7 @@ defmodule GibsWeb.Router do
   end
 
   pipeline :protected do
-    plug Pow.Plug.RequireAuthenticated,
-      error_handler: Pow.Phoenix.PlugErrorHandler
+    plug Pow.Plug.RequireAuthenticated, error_handler: Pow.Phoenix.PlugErrorHandler
   end
 
   pipeline :api do
@@ -30,6 +29,7 @@ defmodule GibsWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/healthy", PageController, :healthy
   end
 
   scope "/", GibsWeb do
@@ -39,6 +39,6 @@ defmodule GibsWeb.Router do
   end
 
   scope "/api/v1", GibsWeb do
-     pipe_through :api
+    pipe_through :api
   end
 end

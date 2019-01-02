@@ -6,20 +6,23 @@ use Mix.Config
 # The watchers configuration can be used to run external
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
+# Use Jason for JSON parsing in Phoenix
+config :phoenix, :json_library, Jason
 config :gibs, GibsWeb.Endpoint,
-  http: [port: 4000],
+  http: [port: System.get_env("HTTP_PORT") || 4000],
+  https: [
+    port: System.get_env("HTTPS_PORT") || 8000,
+    cipher_suite: String.to_atom(System.get_env("HTTPS_CIPHER_SUITE")) || :strong,
+    keyfile: System.get_env("HTTPS_KEY_FILE") || "priv/cert/selfsigned_key.pem",
+    certfile: System.get_env("HTTPS_CERT_FILE") || "priv/cert/selfsigned.pem"
+  ],
+  secret_key_base:
+    System.get_env("SECRET_KEY_BASE") ||
+      "O4CFvDf/9yylAsysqpAC6pt89dy1XbbXX6eI5ti4Xk1ezokFiDyyfENqL4X0Lhk9",
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
-  watchers: [
-    node: [
-      "node_modules/webpack/bin/webpack.js",
-      "--mode",
-      "development",
-      "--watch-stdin",
-      cd: Path.expand("../assets", __DIR__)
-    ]
-  ]
+  watchers: []
 
 # ## SSL Support
 #
@@ -68,8 +71,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :gibs, Gibs.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "gibs_dev",
-  hostname: "localhost",
+  username: System.get_env("POSTGRES_USER"),
+  password: System.get_env("POSTGRES_PASSWORD"),
+  database: System.get_env("POSTGRES_DB"),
+  hostname: System.get_env("POSTGRES_HOST"),
   pool_size: 10

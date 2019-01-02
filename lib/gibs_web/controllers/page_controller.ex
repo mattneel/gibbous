@@ -8,4 +8,8 @@ defmodule GibsWeb.PageController do
   def dashboard(conn, _params) do
     render(conn, "dashboard.html")
   end
+
+  def healthy(conn, _params) do
+    send_resp(conn, 200, "")
+  end
 end

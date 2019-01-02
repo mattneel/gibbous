@@ -9,6 +9,8 @@ defmodule Gibs.MixProject do
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
+      build_path: "/elixir/_build",
+      deps_path: "/elixir/deps",
       aliases: aliases(),
       deps: deps()
     ]
@@ -20,7 +22,7 @@ defmodule Gibs.MixProject do
   def application do
     [
       mod: {Gibs.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :jason]
     ]
   end
 
